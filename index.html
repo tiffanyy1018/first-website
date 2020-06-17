@@ -1,6 +1,21 @@
 <html>
     <head>
         <style>
+            .image-cropper{
+                width: 100px;
+                height: 100px;
+                position: relative;
+                overflow: hidden;
+                border-radius: 50%;
+            }
+            .profile-pic{
+                display: inline;
+                margin: 0 auto;
+                margin-left: -25%; 
+                height: 100%;
+                width: auto;
+            }
+
             body {
                 color :rgb(254, 123, 124);
             }
@@ -8,6 +23,9 @@
     </head>
     <body>
         <h1>Hello this is the webpage for Tiffany Nakamitsu! Special thanks to Rahul Gupta-Iwasaki for helping me set this up!</h1>
-        <img src="Tiffanywebsite.HTML.jpg" alt="profilepic"/> 
+        <div class="image-cropper">
+            <img src="Tiffanywebsite.HTML.jpg" alt="profilepic" class="profile-pic"/> 
+        </div>
+       
     </body>
 </html>
